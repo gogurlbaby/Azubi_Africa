@@ -3,9 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Azubi Africa</title>
   </head>
   <body>
-    <h1>Azubi Africa</h1>
+    <!-- Navbar -->
+    <header>
+      <div>
+        <img src="./images/azubi_logo.svg" alt="Logo" />
+      </div>
+
+      <div id="overlay">
+        <nav id="overlay-nav">
+          <ul>
+            <li><a href="#about" class="nav-menu-item">About</a></li>
+            <li><a href="#services" class="nav-menu-item">Services</a></li>
+            <li><a href="#contact" class="nav-btn">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="menu-icon">
+        <i data-feather="menu" onclick="showOverlay()"></i>
+      </div>
+
+      <div class="close-icon">
+        <i data-feather="x" onclick="hideOverlay()"></i>
+      </div>
+    </header>
+
+    <script src="./script.js"></script>
   </body>
 </html>
