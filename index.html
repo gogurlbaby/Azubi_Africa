@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/hero.css" />
     <link rel="stylesheet" href="./styles/choose-us.css" />
+    <link rel="stylesheet" href="./styles/contact-us.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <script src="https://unpkg.com/feather-icons"></script>
     <title>Azubi Africa</title>
   </head>
@@ -108,6 +110,85 @@
         </div>
       </div>
     </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-container">
+      <div class="contact-content">
+        <div class="contact-text-container">
+          <h3>Contact Us</h3>
+          <p>
+            If you have any specific concerns, please feel free to contact us.
+            <br />
+            <br />
+            We welcome any comments, suggestions, feedback, questions, or
+            requests you have.
+          </p>
+        </div>
+
+        <form action="">
+          <div>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message"
+          ></textarea>
+
+          <a href="" class="submit-btn">Submit</a>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div>
+        <img src="./images/azubi_logo.svg" alt="Logo" />
+
+        <div>
+          <div class="icons-container">
+            <i data-feather="map-pin" class="icon"></i>
+            <p>Reiss Jct Rd, North Legon- Accra - Ghana</p>
+          </div>
+
+          <div class="icons-container">
+            <i data-feather="phone" class="icon"></i>
+            <p>123-45-679</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <ul>
+          <li>
+            <a href="" class="icon"><i data-feather="twitter"></i></a>
+          </li>
+          <li>
+            <a href="" class="icon"><i data-feather="facebook"></i></a>
+          </li>
+          <li>
+            <a href="" class="icon"><i data-feather="instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
 
     <script src="./script.js"></script>
   </body>
